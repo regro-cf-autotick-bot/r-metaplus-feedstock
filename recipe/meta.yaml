@@ -1,4 +1,4 @@
-{% set version = "1.0-8" %}
+{% set version = "1.0-10" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/metaplus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/metaplus/metaplus_{{ version }}.tar.gz
-  sha256: 6b5b74f325c7dcd8510ed5b5777a92b7dcbedd20bf9d610a1a97407067043617
+  sha256: 79a8324cb1882276c0f2c4ecaa1757f67ea1d369de22caff969e39751b6a00a7
 
 build:
   number: 0
